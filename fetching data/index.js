@@ -1,4 +1,4 @@
-// getting data from dummy API 
+// getting data from dummy API
 
 async function GetchDD() {
   const res = await fetch("https://jsonplaceholder.typicode.com/todos/1");
@@ -9,7 +9,7 @@ async function GetchDD() {
   console.log(dataToJson);
 }
 
-// posting data to dummy API 
+// posting data to dummy API
 
 async function PostDD() {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts", {
